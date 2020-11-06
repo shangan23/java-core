@@ -19,3 +19,5 @@ Naming convention in general are represented with Single Upper case letters like
 - Generics don't work with primitive data type arguments.
 - Can have generic class, methods and interfaces
 - Cannot declare `static` class member for Generic type arguments 
+- Generic Interface with Type should only be implemented by GenericClass with T parameter
+- Generic Interface with String parameter can be implemented by any class

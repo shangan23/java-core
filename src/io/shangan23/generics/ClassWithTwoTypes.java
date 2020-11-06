@@ -1,10 +1,10 @@
 package io.shangan23.generics;
 
-public class GenericClassTwoTypes<K, V> {
+public class ClassWithTwoTypes<K, V> {
 	private K key;
 	private V val;
 	
-	GenericClassTwoTypes(K key,V val){
+	ClassWithTwoTypes(K key,V val){
 		this.key = key;
 		this.val = val;
 	}
