@@ -54,6 +54,17 @@ public class MainClass {
 		implClassTwoTypes.setE("This is Interface implementation with one Type without Generic Class");
 		implClassTwoTypes.setVal(23.23);
 		System.out.println(implClassTwoTypes.getE() + "=" + implClassTwoTypes.getVal());
+		
+		System.out.println("===+++++++++++++ Generic Methods  ++++++++++++++===");
+		System.out.println("- GenericMethod with Generic Class");
+		Integer arr[] = {1,2,3,4,5,6};
+		GenericMethod<Integer> genericMethod = new GenericMethod<>(arr);
+		Integer data[] = genericMethod.getArr();
+		genericMethod.printElement(data);
+		
+		System.out.println("- GenericMethod with Non Generic Class");
+		NonGenericMethod nonGenericMethod = new NonGenericMethod();
+		nonGenericMethod.printElement(data);
 	
 		
 	}
