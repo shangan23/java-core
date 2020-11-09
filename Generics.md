@@ -21,3 +21,5 @@ Naming convention in general are represented with Single Upper case letters like
 - Cannot declare `static` class member for Generic type arguments 
 - Generic Interface with Type should only be implemented by GenericClass with T parameter
 - Generic Interface with String parameter can be implemented by any class
+- Bounded - extends for `upper` bound and super for `lower` bound
+'
