@@ -5,3 +5,28 @@
 - Has many interfaces and classes
 
 ## Hierarchy
+```
+Iterable
+ └─── Collection  
+   └─── List
+   	└─── ArrayList
+   	└─── LinkedList
+   	└─── Vector
+   		└─── Stack 
+   └─── Queue
+   	└─── PriorityQueue
+   	└─── Deque
+   	└─── ArrayQueue
+   └─── Set
+   	 └─── HashSet
+   	 └─── LinkedHashSet
+   └─── Map
+   	 └─── HashMap
+   	 └─── HashTable
+   	 └─── StoredMap
+   	 	└─── TreeMap
+```
+## Interfaces
+- Iterator - `hasNext()`;`next()`;`remove()`;
+- Iterable - `iterator()`;
+- Collection - `add()`;`addAll()`;`clear()`;....
